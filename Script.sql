@@ -7,13 +7,12 @@ dept_Name varchar(25) unique,
 mngr_Id int )
 
 -- Department insert
-create proc DepartmentInsert
-@dept_id int, 
+create proc DepartmentInsert 
 @dept_name varchar(25),
 @mngr_id int
 as
-insert into Department(dept_Id, dept_Name, mngr_Id)
-values (@dept_id, @dept_name, @mngr_id)
+insert into Department (dept_Name, mngr_Id)
+values (@dept_name, @mngr_id)
 
 -- Department update
 create proc DepartmentUpdate
@@ -55,14 +54,13 @@ mngr_Id int
 
 -- Branch insert
 create proc BranchInsert
-@br_id int, 
 @br_name varchar(25),
 @br_location varchar(100),
 @br_phone char(11),
 @mngr_id int
 as
-insert into Branch(br_Id, br_Name, br_Location,br_phone,mngr_Id)
-values (@br_id, @br_name, @br_location, @br_phone, @mngr_id)
+insert into Branch(br_Name, br_Location,br_phone,mngr_Id)
+values ( @br_name, @br_location, @br_phone, @mngr_id)
 
 -- Branch update
 create proc BranchUpdate
@@ -110,11 +108,14 @@ values (@br_id, @dept_id)
 
 -- BrancheDepartments update
 create proc BranchDepartmentsUpdate
-@br_id int, 
-@dept_id int
+@old_br_id int, 
+@old_dept_id int,
+@new_br_id int, 
+@new_dept_id int
 as
-update BranchDepartments set br_Id = @br_id, dept_Id = @dept_id
-where br_Id= @br_id And dept_Id = @dept_id
+update BranchDepartments set br_Id = @new_br_id,
+dept_Id = @new_dept_id
+where br_Id= @old_br_id And dept_Id = @old_dept_id
 
 -- BrancheDepartments delete
 create proc BranchDepartmentsDelete
@@ -145,12 +146,11 @@ Dept_Id int foreign key references Department(dept_Id)
 
 -- Track insert
 create proc TrackInsert
-@trk_id int, 
 @trk_name varchar(25),
 @dept_id int
 as
-insert into Track(trk_Id, trk_Name, Dept_Id)
-values (@trk_id, @trk_name, @dept_id)
+insert into Track(trk_Name, Dept_Id)
+values (@trk_name, @dept_id)
 
 -- Track update
 create proc TrackUpdate
@@ -163,10 +163,10 @@ where Dept_Id= @dept_id
 
 -- Track delete
 create proc TrackDelete
-@br_id int
+@trk_id int
 as
 delete from Track 
-where br_Id = @br_id
+where trk_Id = @trk_id
 
 -- Track select all
 create proc TrackSelectAll
@@ -175,9 +175,9 @@ select * from Track
 
 -- Track select one
 create proc TrackSelectOne
-@br_id int
+@trk_id int
 as
-select * from Track where br_Id = @br_id
+select * from Track where trk_Id = @trk_id
 -----------------------------------
 
 -- Reyad
