@@ -6,27 +6,178 @@ Create Table Department
 dept_Name varchar(25) unique,
 mngr_Id int )
 
+-- Department insert
+create proc DepartmentInsert
+@dept_id int, 
+@dept_name varchar(25),
+@mngr_id int
+as
+insert into Department(dept_Id, dept_Name, mngr_Id)
+values (@dept_id, @dept_name, @mngr_id)
+
+-- Department update
+create proc DepartmentUpdate
+@dept_id int, 
+@dept_name varchar(25),
+@mngr_id int
+as
+update Department set dept_Name = @dept_name,
+mngr_Id = @mngr_id
+where dept_Id = @dept_id
+
+-- Department delete
+create proc DepartmentDelete
+@dept_id int
+as
+delete from Department 
+where dept_Id = @dept_id
+
+-- Department select all
+create proc QuestionSelectAll
+as
+select * from Department 
+
+-- Department select one
+create proc QuestionSelectOne
+@dept_id int
+as
+select * from Department where dept_Id = @dept_id
+
+--------------------------------------------------------------------------------
 -- 2. Branches	
 Create Table Branch
 (br_Id int primary key identity,
 br_Name varchar(25) unique, 
 br_Location varchar(100),
-br_phone varchar(25),
+br_phone char(11),
 mngr_Id int
 )
+
+-- Branch insert
+create proc BranchInsert
+@br_id int, 
+@br_name varchar(25),
+@br_location varchar(100),
+@br_phone char(11),
+@mngr_id int
+as
+insert into Branch(br_Id, br_Name, br_Location,br_phone,mngr_Id)
+values (@br_id, @br_name, @br_location, @br_phone, @mngr_id)
+
+-- Branch update
+create proc BranchUpdate
+@br_id int, 
+@br_name varchar(25),
+@br_location varchar(100),
+@br_phone char(11),
+@mngr_id int
+as
+update Branch set br_Name = @br_name,br_Location=@br_location,br_phone=@br_phone,mngr_Id = @mngr_id
+where br_Id= @br_id
+
+-- Branch delete
+create proc BranchDelete
+@br_id int
+as
+delete from Branch 
+where br_Id = @br_id
+
+-- Branch select all
+create proc BranchSelectAll
+as
+select * from Branch 
+
+-- Branch select one
+create proc BranchSelectOne
+@br_id int
+as
+select * from Branch where br_Id = @br_id
+----------------------------------------------------------------------------------
 -- 3. BrancheDepratments
-create table BrancheDepartments
+create table BranchDepartments
 (br_Id int foreign key references Branch(br_Id),
 dept_Id int foreign key references Department(dept_Id),
 constraint Branch_Dept_PK primary key (br_Id, dept_Id) 
 )
--- 4. Tracks
+
+-- BranchDepartments insert
+create proc BranchDepartmentsInsert
+@br_id int, 
+@dept_id int
+as
+insert into BranchDepartments(br_Id, dept_Id)
+values (@br_id, @dept_id)
+
+-- BrancheDepartments update
+create proc BranchDepartmentsUpdate
+@br_id int, 
+@dept_id int
+as
+update BranchDepartments set br_Id = @br_id, dept_Id = @dept_id
+where br_Id= @br_id And dept_Id = @dept_id
+
+-- BrancheDepartments delete
+create proc BranchDepartmentsDelete
+@br_id int,
+@dept_id int
+as
+delete from BranchDepartments 
+where br_Id = @br_id AND dept_Id = @dept_id
+
+-- BranchDepartments select all
+create proc BrancheDepartmentsSelectAll
+as
+select * from BranchDepartments 
+
+-- BranchDepartments select one
+create proc BranchDepartmentsSelectOne
+@br_id int,
+@dept_id int
+as
+select * from BranchDepartments where br_Id = @br_id AND dept_Id = @dept_id
+-----------------------------------------------------------------------------------
+-- 4. Track
 create Table Track
 (trk_Id int primary key identity, 
 trk_Name varchar(25),
 Dept_Id int foreign key references Department(dept_Id)
 )
 
+-- Track insert
+create proc TrackInsert
+@trk_id int, 
+@trk_name varchar(25),
+@dept_id int
+as
+insert into Track(trk_Id, trk_Name, Dept_Id)
+values (@trk_id, @trk_name, @dept_id)
+
+-- Track update
+create proc TrackUpdate
+@trk_id int, 
+@trk_name varchar(25),
+@dept_id int
+as
+update Track set trk_Name = @trk_name,Dept_Id=@dept_id
+where Dept_Id= @dept_id
+
+-- Track delete
+create proc TrackDelete
+@br_id int
+as
+delete from Track 
+where br_Id = @br_id
+
+-- Track select all
+create proc TrackSelectAll
+as
+select * from Track 
+
+-- Track select one
+create proc TrackSelectOne
+@br_id int
+as
+select * from Track where br_Id = @br_id
 -----------------------------------
 
 -- Reyad
