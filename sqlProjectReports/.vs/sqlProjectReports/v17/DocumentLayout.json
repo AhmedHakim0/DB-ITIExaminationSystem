@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\study\\iti\\.net track\\sqlProjectReports\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\CourseTopic.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\CourseTopic.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\ExamQuestionReport.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\ExamQuestionReport.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\StudentExamDetailsReport.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\StudentExamDetailsReport.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\studentDataByDeptID.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\studentDataByDeptID.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\studentGrades.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\studentGrades.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\instructorCourses.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\instructorCourses.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\allStudents.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\allStudents.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseTopic.rdl [Design]",
+              "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\CourseTopic.rdl",
+              "RelativeDocumentMoniker": "sqlProjectReports\\CourseTopic.rdl",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\CourseTopic.rdl [Design]*",
+              "RelativeToolTip": "sqlProjectReports\\CourseTopic.rdl [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-31T00:35:47.528Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExamQuestionReport.rdl [Design]",
+              "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\ExamQuestionReport.rdl",
+              "RelativeDocumentMoniker": "sqlProjectReports\\ExamQuestionReport.rdl",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\ExamQuestionReport.rdl [Design]",
+              "RelativeToolTip": "sqlProjectReports\\ExamQuestionReport.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-31T00:33:19.743Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentExamDetailsReport.rdl [Design]",
+              "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\StudentExamDetailsReport.rdl",
+              "RelativeDocumentMoniker": "sqlProjectReports\\StudentExamDetailsReport.rdl",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\StudentExamDetailsReport.rdl [Design]",
+              "RelativeToolTip": "sqlProjectReports\\StudentExamDetailsReport.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-31T00:30:37.675Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "studentDataByDeptID.rdl [Design]",
+              "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\studentDataByDeptID.rdl",
+              "RelativeDocumentMoniker": "sqlProjectReports\\studentDataByDeptID.rdl",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\studentDataByDeptID.rdl [Design]",
+              "RelativeToolTip": "sqlProjectReports\\studentDataByDeptID.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T22:39:23.949Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "studentGrades.rdl [Design]",
+              "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\studentGrades.rdl",
+              "RelativeDocumentMoniker": "sqlProjectReports\\studentGrades.rdl",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\studentGrades.rdl [Design]",
+              "RelativeToolTip": "sqlProjectReports\\studentGrades.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T22:09:54.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "instructorCourses.rdl [Design]",
+              "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\instructorCourses.rdl",
+              "RelativeDocumentMoniker": "sqlProjectReports\\instructorCourses.rdl",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\instructorCourses.rdl [Design]",
+              "RelativeToolTip": "sqlProjectReports\\instructorCourses.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T21:35:12.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "allStudents.rdl [Design]",
+              "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\allStudents.rdl",
+              "RelativeDocumentMoniker": "sqlProjectReports\\allStudents.rdl",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\allStudents.rdl [Design]",
+              "RelativeToolTip": "sqlProjectReports\\allStudents.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T11:04:12.45Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
