@@ -8,7 +8,7 @@ The ITI Exam Management System is based on **SQL Server** for data management, w
 - 🗄 **Database**: SQL Server  
 - 📜 **Query Language**: T-SQL  
 - 📊 **Reporting Tool**: SSRS  
-- 🖥 **Desktop Application**: [Specify the tool used]  
+- 🖥 **Desktop Application**   
 - 🛠 **Version Control**: Git, GitHub  
 
 ## How to Run the Project  
