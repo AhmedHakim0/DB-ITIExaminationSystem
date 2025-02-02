@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\study\\iti\\.net track\\sqlProjectReports\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\CourseTopic.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\CourseTopic.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\ExamQuestionReport.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
       "RelativeMoniker": "D:0:0:{792B8C82-0D81-490D-BFBB-101543DBA38A}|sqlProjectReports\\sqlProjectReports.rptproj|solutionrelative:sqlProjectReports\\ExamQuestionReport.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
     },
@@ -39,18 +43,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CourseTopic.rdl [Design]",
+              "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\CourseTopic.rdl",
+              "RelativeDocumentMoniker": "sqlProjectReports\\CourseTopic.rdl",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\CourseTopic.rdl [Design]*",
+              "RelativeToolTip": "sqlProjectReports\\CourseTopic.rdl [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-31T00:35:47.528Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ExamQuestionReport.rdl [Design]",
               "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\ExamQuestionReport.rdl",
               "RelativeDocumentMoniker": "sqlProjectReports\\ExamQuestionReport.rdl",
-              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\ExamQuestionReport.rdl [Design]*",
-              "RelativeToolTip": "sqlProjectReports\\ExamQuestionReport.rdl [Design]*",
+              "ToolTip": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\ExamQuestionReport.rdl [Design]",
+              "RelativeToolTip": "sqlProjectReports\\ExamQuestionReport.rdl [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-31T00:33:19.743Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentExamDetailsReport.rdl [Design]",
               "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\StudentExamDetailsReport.rdl",
               "RelativeDocumentMoniker": "sqlProjectReports\\StudentExamDetailsReport.rdl",
@@ -62,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "studentDataByDeptID.rdl [Design]",
               "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\studentDataByDeptID.rdl",
               "RelativeDocumentMoniker": "sqlProjectReports\\studentDataByDeptID.rdl",
@@ -74,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "studentGrades.rdl [Design]",
               "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\studentGrades.rdl",
               "RelativeDocumentMoniker": "sqlProjectReports\\studentGrades.rdl",
@@ -85,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "instructorCourses.rdl [Design]",
               "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\instructorCourses.rdl",
               "RelativeDocumentMoniker": "sqlProjectReports\\instructorCourses.rdl",
@@ -96,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "allStudents.rdl [Design]",
               "DocumentMoniker": "F:\\study\\iti\\.net track\\sqlProjectReports\\sqlProjectReports\\allStudents.rdl",
               "RelativeDocumentMoniker": "sqlProjectReports\\allStudents.rdl",
